@@ -107,7 +107,7 @@ def sliding_windows():
             slide(request_limit_slider)
         finally:
             mutex.release()
-            time.sleep(0.5)
+            time.sleep(float(limit[0] / precision))
 
 
 def processor():
