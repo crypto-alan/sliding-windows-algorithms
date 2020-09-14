@@ -8,7 +8,7 @@ import threading
 
 host = ('localhost', 8888)  # HTTP Server Configuration
 request_limit_slider = []  # Rate limit Slider
-limit = (1, 10)  # 100 requests per 1 second
+limit = (1, 10)  # 10 requests per 1 second
 precision = 5  # Windows precision
 window_size = 0  # Current windows size
 
