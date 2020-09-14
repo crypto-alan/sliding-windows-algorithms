@@ -119,7 +119,7 @@ def processor():
     while 1:
         pass
 
-# General test cases
+# General test cases - what happens in one second
 def test_cases():
     init_windows()
     assert exceeded_rate_limit() == False
